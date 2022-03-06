@@ -10,7 +10,7 @@ const Exercices = () => {
             )
             .then((res) => setData(res.data));
         console.log(data[0]) //todo destructuring
-    }, [])
+    }, [data])
     return (
             <div className="exercices">
             <ul className="liste-exercices">
