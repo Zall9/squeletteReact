@@ -1,0 +1,20 @@
+{
+    "exercices": [
+        {
+            "_id": "ObjectId()",
+            "nom": "'les boucles en python'",
+            "difficulte": 3,
+            "theme": [
+                "'boucles'",
+                "'Graphes'"
+            ],
+            "langage": "python",
+            "correction": "def getCheminElementaire(liste): \n \t for i in range(0,len(liste)): \t \t \n \t \t \t \nfor j in range(len(liste)-1,i,-1): \t \t \t \t \t if liste[i]==liste[j]: \t \t \t \t \t \n del(liste[j]) \t return liste",
+            "aides": ["Tentez une double boucle"],
+            "auteurs":["Polux Le professeur cosmique"],
+            "enonce": "Trouvez le chemin élémentaire entre le premier élément du tableau et son dernier",
+            "dataset": [],
+            "__v": 0
+    }
+]
+}
